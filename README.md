@@ -1,1 +1,1 @@
-##Small training for TheOdinProject.##
+# Small training for TheOdinProject. #
