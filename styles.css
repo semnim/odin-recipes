@@ -1,20 +1,49 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: #00FF41;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.quote {
+    font-size: 10px;
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    
 }
 .headline {
-    font-family: fantasy;
-    color: cornflowerblue;
+    font-size: 30px;
 }
 
+.links {
+    font-family: Papyrus;
+    font-size: 15px;
+}
+
+ul, ol {
+    display: table;
+    text-align: center;
+    inline-size: 30%;
+}
+
+ul {
+    list-style-type: "»";
+    margin: 0 auto;
+}
+
+ol {
+    margin-left: 33%;
+    display: flexbox;
+    width: 30%;
+}
+
+#header {
+    font-size: 50px;
+
+}
 img {
     height: auto;
-    width: 400px;        
-}
-
-#shift {
-    padding: 0px 100px;
-}
-#header {
-    color: red;
+    width: auto;        
 }
